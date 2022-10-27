@@ -1,0 +1,88 @@
+.App {
+    text-align: center;
+    
+    color: blue;
+  }
+  .form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px auto;
+    padding: 0px;
+    
+    /* place-items: center; */
+    width: 500px;
+    min-height: 180px;
+    background-color: rgba(0, 255, 255, 0.733);
+    border-radius: 20px;
+  }
+  
+  .form h3{
+    margin: 10px 0px 10px 20px ;
+    font-size: 20px;
+    font-style: 'Aboreto';
+    }
+  .form input{
+    border-radius: 5px;
+    outline: none;
+    border-style: none;
+    height: 20px;
+    width: 200px;
+    margin-left: 20px;
+    padding:15px 0px;
+    line-height: 15px;
+    font-size: 17px;
+    font-family: 'Aboreto', cursive;
+    font-weight: 1000;
+  }
+  .form input:focus{
+    border-bottom: 2px solid rgba(0, 152, 253,0.9);
+  }
+  .form button{
+    margin-top: 10px;
+    background-color: rgba(0, 152, 253,0.5);
+    border-style: none;
+    outline: none;
+    padding: 7px;
+    border-radius: 10px;
+    width: 100px;
+    margin-left: 23rem;
+  }
+  .form button:hover{
+    background-color: rgba(0, 152, 253,0.9);;
+  
+  }
+  .form button:active{
+    background-color: black;
+    opacity: 0.6;
+    color: white;
+  }
+  @media (max-width:803px){
+    .form{
+      width: 300px;
+      min-height: 150px;
+    }
+    
+    .form input{
+      height: 17px;
+      width: 180px;
+      font-size: 15px;
+      font-weight: 800;
+    }
+    .form button{
+      margin-top: 10px;
+      background-color: rgba(0, 152, 253,0.5);
+      width: 70px;
+      margin-left: 13rem;
+    }
+}
+@media(max-width:503px){
+  .form{
+    width: 250px;
+    margin-left: 50px;
+  }
+  .form button{
+    margin-left: 10rem;
+    
+  }
+}

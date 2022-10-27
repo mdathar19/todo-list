@@ -1,0 +1,41 @@
+.list{
+    display: inline-flex;
+    flex-direction: column;
+    background-color: rgba(0, 255, 255, 0.733);
+    border-radius: 20px;
+    width: 400px;
+    padding: 0;
+    min-height: 300px;
+    max-height: 100vh;
+    position: absolute;
+    left: 0;
+    
+}
+.list h1{
+    /* margin: auto; */
+    margin-top: 0;
+    text-align: center;
+}
+body{
+    position: relative;
+}
+
+@media(max-width:803px){
+    .list{
+        
+        width: 250px;
+        
+        
+    }
+}
+@media(max-width:503px){
+    .list{
+        left: 50px;
+        width: 250px;
+        min-height: 250px;
+        
+    }
+    body{
+        position:relative;
+    }
+}
